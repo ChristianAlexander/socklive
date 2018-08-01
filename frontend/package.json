@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The frontend for socklive",
+  "scripts": {
+    "build": "tsc && cp node_modules/systemjs/dist/system-production.js ../static/system.js"
+  },
+  "author": "Christian Alexander",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.4"
+  }
+}
